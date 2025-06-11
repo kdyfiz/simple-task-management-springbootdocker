@@ -14,7 +14,7 @@ This is a simple Task Planner backend built using Java Spring Boot, MySQL, and D
 - Docker & Docker Compose
 - Maven
 
-#📁 Project Structure
+# 📁 Project Structure
 - bash
 - Copy
 
@@ -33,20 +33,20 @@ demo/
 ├── docker-compose.yml
 └── README.md
 
-#⚙️ Getting Started
+# ⚙️ Getting Started
 - Prerequisites
 - Docker
 - IntelliJ IDEA
 
-#Git
+# Git
 Clone the Repository
   git clone https://github.com/kdyfiz/task-planner-backend.git
   cd task-planner-backend
 
-#Start the Application (Docker)
+# Start the Application (Docker)
 docker-compose up --build
 
-#The backend will be running at:
+# The backend will be running at:
 📍 http://localhost:8080
 
 #MySQL will be running at:
@@ -57,26 +57,26 @@ docker exec -it mysql-container mysql -u root -p
 Password is password (or whatever you set in docker-compose.yml)
 
 # 🧪 Sample API Endpoints
-Method	Endpoint	Description
-GET	/api/tasks	List all tasks
-POST	/api/tasks	Create new task
-PUT	/api/tasks/{id}	Update a task
-DELETE	/api/tasks/{id}	Delete a task
+- Method	Endpoint	Description
+- GET	/api/tasks	List all tasks
+- POST	/api/tasks	Create new task
+- PUT	/api/tasks/{id}	Update a task
+- DELETE	/api/tasks/{id}	Delete a task
 
 # 📦 Environment Configuration
 src/main/resources/application.properties:
 
 # properties
-spring.datasource.url=jdbc:mysql://db:3306/demo
-spring.datasource.username=root
-spring.datasource.password=password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+- spring.datasource.url=jdbc:mysql://db:3306/demo
+- spring.datasource.username=root
+- spring.datasource.password=password
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
 
 # 📌 Future Work
-Add frontend (React/Vite or Angular)
-Add user authentication
-Add due date reminder or notification
+- Add frontend (React/Vite or Angular)
+- Add user authentication
+- Add due date reminder or notification
 
-🧑‍💻 Author
-Khadijahhafiz
+# 🧑‍💻 Author
+# Khadijahhafiz
