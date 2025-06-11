@@ -21,17 +21,17 @@ This is a simple Task Planner backend built using Java Spring Boot, MySQL, and D
 - demo/
 - ├── src/
 - │   └── main/
- │       ├── java/com/example/demo/
- │       │   ├── controller/   # API endpoints (e.g., TaskController.java)
- │       │   ├── entity/       # Task entity class
- │       │   ├── repository/   # JPA repository interfaces
- │       │   └── DemoApplication.java
- │       └── resources/
- │           ├── application.properties
- │           └── ...
- ├── Dockerfile
- ├── docker-compose.yml
- └── README.md
+- │       ├── java/com/example/demo/
+- │       │   ├── controller/   # API endpoints (e.g., TaskController.java)
+- │       │   ├── entity/       # Task entity class
+- │       │   ├── repository/   # JPA repository interfaces
+- │       │   └── DemoApplication.java
+- │       └── resources/
+- │           ├── application.properties
+- │           └── ...
+- ├── Dockerfile
+- ├── docker-compose.yml
+- └── README.md
 
 # ⚙️ Getting Started
 - Prerequisites
