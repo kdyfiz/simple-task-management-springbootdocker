@@ -3,7 +3,7 @@ version: '3.8'
 services:
   db:
     image: mysql:8
-    container_name: mysql-container
+    container_name: mysql-container-springboot
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: demo
@@ -16,7 +16,7 @@ services:
 
   app:
     build: .
-    container_name: springboot-container
+    container_name: springboot-container-taskmanagement
     ports:
       - "8080:8080"
     environment:
